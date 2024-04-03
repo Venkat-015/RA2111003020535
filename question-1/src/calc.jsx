@@ -3,8 +3,8 @@ export default function Calci(){
         <div>
             <h1>Calculator</h1>
             <form action="/calci" method="post">
-                <input type="text" name="numb1" placeholder="Enter the first number"/>
-                <input type="text" name="numb2" placeholder="Enter the second number"/>
+                <input type="text" name="numb_1" placeholder="Enter first number"/>
+                <input type="text" name="numb_2" placeholder="Enter second number"/>
                 <button type="submit">calculator</button>
             </form>
 
